@@ -1,4 +1,4 @@
-# 🚀 Team Chat App – Real-Time Messaging Platform
+# Team Chat App – Real-Time Messaging Platform
 
 A full-stack, real-time team communication app built using the MERN stack with Socket.IO.  
 Supports channel-based communication, presence tracking, message history, private channels, typing indicators, and a clean UI with React + TailwindCSS.
@@ -8,29 +8,29 @@ All **mandatory features** + **bonus features** are implemented.
 
 ---
 
-# 🔗 Live Demo
+# Live Demo
 
-### 🌐 Frontend (Vercel)
+### Frontend (Vercel)
 https://team-chat-app-rho.vercel.app/
 
-### 🖥 Backend (Render)
+### Backend (Render)
 https://team-chatapp.onrender.com/
 
-### 📦 GitHub Repository
+### GitHub Repository
 https://github.com/BhuvaneshAdithya45/Team_ChatApp
 
 ---
 
-# 🌟 Features
+#  Features
 
-## ✅ Mandatory Features (Completed)
+##  Mandatory Features (Completed)
 
-### 🔐 **Authentication**
+### **Authentication**
 - Register with name, email, password  
 - Login using JWT  
 - Protected routes  
 
-### 🗂 **Channel Management**
+### **Channel Management**
 - Create channels  
 - Join channel on click  
 - Auto-select newly created channel  
@@ -41,38 +41,38 @@ https://github.com/BhuvaneshAdithya45/Team_ChatApp
 - Live message rendering  
 - Messages stored in MongoDB  
 
-### 📜 **Message History**
+###  **Message History**
 - Loads last 20 messages  
 - Infinite scroll → load older messages  
 - Smooth scroll preservation  
 
-### 👀 **Online User Presence**
+###  **Online User Presence**
 - Shows who is online in each channel  
 - Updates instantly when users join/leave  
 
 ---
 
-# ⭐ Bonus Features (Implemented)
+#  Bonus Features (Implemented)
 
-### ✨ **Typing Indicators**
+###  **Typing Indicators**
 Shows *“User is typing…”* in real time.
 
-### 🔒 **Private Channels**
+###  **Private Channels**
 - Hidden from other users  
 - Only visible to invited members  
 
-### ✏️ **Message Editing / Deletion**
+###  **Message Editing / Deletion**
 Users can edit or delete **their own** messages.
 
-### 🔎 **Message Search**
+###  **Message Search**
 Search messages by keyword inside a channel.
 
-### 🌙 **Dark Mode**
+###  **Dark Mode**
 Stored using localStorage.
 
 ---
 
-# 🛠️ Tech Stack
+#  Tech Stack
 
 ### **Frontend**
 - React (Vite)
@@ -95,7 +95,7 @@ Stored using localStorage.
 
 ---
 
-# 🧱 System Architecture
+#  System Architecture
 
 ```
 Frontend  (Vercel)
@@ -107,7 +107,7 @@ MongoDB Atlas
 
 ---
 
-# 📁 Folder Structure
+# Folder Structure
 
 ```
 Team_ChatApp/
@@ -129,16 +129,16 @@ Team_ChatApp/
 
 ---
 
-# 🧩 Environment Variables
+#  Environment Variables
 
-## 📌 Backend (Render) — `server/.env`
+##  Backend (Render) — `server/.env`
 
 ```
 MONGO_URI=your_mongodb_atlas_url
 JWT_SECRET=your_secret_key
 ```
 
-## 📌 Frontend (Vercel) — `client/.env`
+##  Frontend (Vercel) — `client/.env`
 
 ```
 VITE_API_URL=https://team-chatapp.onrender.com/api
@@ -147,37 +147,37 @@ VITE_SOCKET_URL=https://team-chatapp.onrender.com
 
 ---
 
-# 🚀 Local Development Setup
+#  Local Development Setup
 
-### 1️⃣ Clone the repository
+### 1️ Clone the repository
 
 ```sh
 git clone https://github.com/BhuvaneshAdithya45/Team_ChatApp.git
 cd Team_ChatApp
 ```
 
-### 2️⃣ Install backend dependencies
+### 2️ Install backend dependencies
 
 ```sh
 cd server
 npm install
 ```
 
-### 3️⃣ Install frontend dependencies
+### 3️ Install frontend dependencies
 
 ```sh
 cd ../client
 npm install
 ```
 
-### 4️⃣ Run backend
+### 4️ Run backend
 
 ```sh
 cd server
 npm run dev
 ```
 
-### 5️⃣ Run frontend
+### 5️ Run frontend
 
 ```sh
 cd client
@@ -186,27 +186,27 @@ npm run dev
 
 ---
 
-# 🌍 Deployment Guide
+#  Deployment Guide
 
-## 🟦 Deploy Backend (Render)
+##  Deploy Backend (Render)
 1. Select **server** folder  
 2. Build command: `npm install`  
 3. Start command: `node server.js`  
 4. Add env variables  
 5. Deploy  
 
-## 🟩 Deploy Frontend (Vercel)
+##  Deploy Frontend (Vercel)
 Add env variables:
 
 ```
 VITE_API_URL=https://team-chatapp.onrender.com/api
 VITE_SOCKET_URL=https://team-chatapp.onrender.com
 ```
-# 👨‍💻 Author
+#  Author
 
 **Bhuvanesh Adithya M C**  
 Full Stack Developer  
-LinkedIn: https://linkedin.com/in/bhuvanesh-gowda
+LinkedIn:https://www.linkedin.com/in/bhuvaneshadithya/
 
 ---
 
@@ -220,5 +220,5 @@ This project demonstrates:
 - Clean UI + Tailwind  
 - Full deployment pipeline  
 
-A complete, production-ready team chat system. 🚀
+A complete, production-ready team chat system. 
 
